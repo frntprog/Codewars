@@ -7,7 +7,7 @@ var uniqueInOrder = function (val) {
       res.push(arr[i]);
     }
   }
-  console.log(res);
+  return res;
 };
 
 console.log(uniqueInOrder([1, 2, 2, 3, 3]));
