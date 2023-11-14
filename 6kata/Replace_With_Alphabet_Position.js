@@ -13,7 +13,6 @@ function alphabetPosition(text) {
     .split("")
     .forEach((el) => (el.match(/[a-z]/i) ? res.push(hash[el]) : null));
 
-  console.log(res);
 
   return res.join(" ");
 }
