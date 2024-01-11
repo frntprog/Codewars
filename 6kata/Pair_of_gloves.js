@@ -47,4 +47,4 @@ console.log(
     "Fuchsia",
     "Aqua",
   ])
-); // 8
+);
