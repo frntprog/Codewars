@@ -7,7 +7,6 @@ function expandedForm(num) {
       res.push(num);
     }
   }
-
   return res.join(" + ");
 }
 
