@@ -30,8 +30,6 @@ function score(dice) {
     }
   }
 
-  console.log(hash);
-
   for (const iterator of dice) {
     if (
       (iterator == 1 && hash[iterator] > 0) ||
